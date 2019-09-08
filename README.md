@@ -1,1 +1,1 @@
-# recipes-by-ksenia
+# ideas-by-ksenia
