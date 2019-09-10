@@ -49,11 +49,11 @@ function server() {
       baseDir: "./dist"
     }
   });
-}
 
-//watch(sassWatch, styles)
-watch("sass/**/*", styles);
-watch("./**/*").on("change", browserSync.reload);
+  //watch(sassWatch, styles)
+  watch("sass/**/*", styles);
+  watch("./**/*").on("change", browserSync.reload);
+}
 
 exports.build = build;
 exports.default = series(styles, server);
