@@ -13,7 +13,7 @@ a {
 }
 
 .main-header {
-  padding: 20px;
+  // padding: 20px;
   background: url(./img/hero.jpg) center no-repeat;
   background-size: cover;
 
@@ -21,6 +21,8 @@ a {
 }
 
 .navbar {
+  padding: 20px;
+
   a {
     color: #fff;
     opacity: 0.8;
@@ -122,5 +124,35 @@ a {
 
   .btn {
     width: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #111;
+    padding: 10px;
+    border-bottom: 3px solid #fff;
+
+    .navbar-nav:last-child {
+      padding-bottom: 20px;
+    }
+
+    a {
+      &::after {
+        transform: scale(1);
+      }
+
+      &::after {
+        content: "";
+        background-color: #fff;
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        height: 2px;
+        text-align: center;
+        transform: scale(0);
+        transition: all 0.3s;
+      }
+    }
   }
 }
