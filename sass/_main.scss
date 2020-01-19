@@ -14,7 +14,7 @@ a {
 
 .main-header {
   // padding: 20px;
-  background: url(./img/hero.jpg) center no-repeat;
+  background: url(./img/hero2.jpg) center no-repeat;
   background-size: cover;
 
   height: 100vh;
@@ -55,7 +55,6 @@ a {
   margin: 100px;
   margin-top: 20vh;
 
-  text-shadow: 0px 0px 60px #000;
 }
 
 .title {
@@ -72,12 +71,12 @@ a {
 
   padding-top: 30px;
   color: #fff;
-  text-shadow: 0px 0px 10px #000;
 }
 
 .ideas {
   display: flex;
   justify-content: center;
+
   .row {
     // display: flex;
     // justify-content: space-around;
