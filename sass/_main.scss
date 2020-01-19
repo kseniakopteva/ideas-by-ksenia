@@ -21,7 +21,8 @@ a {
   height: 100vh;
 }
 
-.navbar {
+.navbar,
+.second-nav {
   padding: 20px;
 
   a {
@@ -49,6 +50,27 @@ a {
       transition: all 0.3s;
     }
   }
+}
+
+.second-nav {
+  a {
+    color: #000;
+
+    &::after {
+      background-color: #000;
+      width: 10%;
+      margin-left: 90%;
+    }
+  }
+}
+
+.logo {
+  padding: 50px;
+
+}
+
+.logo-image {
+  height: 50px;
 }
 
 .title-wrapper {
